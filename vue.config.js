@@ -31,7 +31,7 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     port: port,
-    open: true,
+    open: false, // 默认关闭
     overlay: {
       warnings: false,
       errors: true
